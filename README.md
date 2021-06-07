@@ -38,7 +38,7 @@ Python codes for robotics algorithm.
          * [Dijkstra algorithm](#dijkstra-algorithm)
          * [A* algorithm](#a-algorithm)
          * [D* algorithm](#d-algorithm)
-         * [D* Lite algorithm](#dstarlite-algorithm)
+         * [D* Lite algorithm](#d-lite-algorithm)
          * [Potential Field algorithm](#potential-field-algorithm)
          * [Grid based coverage path planning](#grid-based-coverage-path-planning)
       * [State Lattice Planning](#state-lattice-planning)
@@ -108,25 +108,25 @@ For running each sample code:
 
 - pandas
 
-- [cvxpy](https://www.cvxpy.org/index.html) 
+- [cvxpy](https://www.cvxpy.org/index.html)
 
 For development:
-  
+
 - pytest (for unit tests)
-  
+
 - pytest-xdist (for parallel unit tests)
-  
+
 - mypy (for type check)
-  
+
 - Sphinx (for document generation)
-  
+
 - pycodestyle (for code style check)
 
 # Documentation
 
-This README only shows some examples of this project. 
+This README only shows some examples of this project.
 
-If you are interested in other examples or mathematical backgrounds of each algorithm, 
+If you are interested in other examples or mathematical backgrounds of each algorithm,
 
 You can check the full documentation online: [https://pythonrobotics.readthedocs.io/](https://pythonrobotics.readthedocs.io/)
 
@@ -144,7 +144,7 @@ All animation gifs are stored here: [AtsushiSakai/PythonRoboticsGifs: Animation 
 using conda :
 
 > conda env create -f environment.yml
- 
+
 using pip :
 
 > pip install -r requirements.txt
@@ -152,7 +152,7 @@ using pip :
 
 3. Execute python script in each directory.
 
-4. Add star to this repo if you like it :smiley:. 
+4. Add star to this repo if you like it :smiley:.
 
 # Localization
 
@@ -352,7 +352,7 @@ This script is a path planning code with state lattice planning.
 
 This code uses the model predictive trajectory generator to solve boundary problem.
 
-Ref: 
+Ref:
 
 - [Optimal rough terrain trajectory generation for wheeled mobile robots](http://journals.sagepub.com/doi/pdf/10.1177/0278364906075328)
 
@@ -368,7 +368,7 @@ Ref:
 
 ![PythonRobotics/figure_1.png at master · AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathPlanning/StateLatticePlanner/LaneSampling.gif)
 
-## Probabilistic Road-Map (PRM) planning 
+## Probabilistic Road-Map (PRM) planning
 
 ![PRM](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathPlanning/ProbabilisticRoadMap/animation.gif)
 
@@ -443,7 +443,7 @@ A sample code with Reeds Shepp path planning.
 
 Ref:
 
-- [15.3.2 Reeds\-Shepp Curves](http://planning.cs.uiuc.edu/node822.html) 
+- [15.3.2 Reeds\-Shepp Curves](http://planning.cs.uiuc.edu/node822.html)
 
 - [optimal paths for a car that goes both forwards and backwards](https://pdfs.semanticscholar.org/932e/c495b1d0018fd59dee12a0bf74434fac7af4.pdf)
 
@@ -457,7 +457,7 @@ A sample code using LQR based path planning for double integrator model.
 ![RSPlanning](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathPlanning/LQRPlanner/animation.gif?raw=true)
 
 
-## Optimal Trajectory in a Frenet Frame 
+## Optimal Trajectory in a Frenet Frame
 
 ![3](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathPlanning/FrenetOptimalTrajectory/animation.gif)
 
@@ -537,7 +537,7 @@ Ref:
 
 ## Nonlinear Model predictive control with C-GMRES
 
-A motion planning and path tracking simulation with NMPC of C-GMRES 
+A motion planning and path tracking simulation with NMPC of C-GMRES
 
 ![3](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathTracking/cgmres_nmpc/animation.gif)
 
@@ -554,13 +554,13 @@ N joint arm to a point control simulation.
 
 This is an interactive simulation.
 
-You can set the goal position of the end effector with left-click on the plotting area. 
+You can set the goal position of the end effector with left-click on the plotting area.
 
 ![3](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/ArmNavigation/n_joint_arm_to_point_control/animation.gif)
 
 In this simulation N = 10, however, you can change it.
 
-## Arm navigation with obstacle avoidance 
+## Arm navigation with obstacle avoidance
 
 Arm navigation with obstacle avoidance simulation.
 
@@ -569,7 +569,7 @@ Arm navigation with obstacle avoidance simulation.
 
 # Aerial Navigation
 
-## drone 3d trajectory following 
+## drone 3d trajectory following
 
 This is a 3d trajectory following simulation for a quadrotor.
 
@@ -595,7 +595,7 @@ You can set the footsteps, and the planner will modify those automatically.
 
 ![3](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/Bipedal/bipedal_planner/animation.gif)
 
-# License 
+# License
 
 MIT
 
@@ -613,7 +613,7 @@ Any contribution is welcome!!
 
 # Citing
 
-If you use this project's code for your academic work, we encourage you to cite [our papers](https://arxiv.org/abs/1808.10703) 
+If you use this project's code for your academic work, we encourage you to cite [our papers](https://arxiv.org/abs/1808.10703)
 
 If you use this project's code in industry, we'd love to hear from you as well; feel free to reach out to the developers directly.
 
@@ -638,4 +638,3 @@ They are providing a free license of their IDEs for this OSS development.
 # Authors
 
 - [Contributors to AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics/graphs/contributors)
-
